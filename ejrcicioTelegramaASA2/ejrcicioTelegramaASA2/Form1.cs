@@ -43,7 +43,7 @@ namespace ejrcicioTelegramaASA2
                 }
                 else
                 {
-                    coste = 3 + 0.5 * (numPalabras - 10);
+                    coste = 2.5 + 0.5 * (numPalabras - 10);
 
                 }
             }
@@ -58,7 +58,7 @@ namespace ejrcicioTelegramaASA2
                     }
                     else
                     {
-                        coste = 6 + 0.75 * (numPalabras - 10);
+                        coste = 5 + 0.75 * (numPalabras - 10);
                     }
                 }
                 else
