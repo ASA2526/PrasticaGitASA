@@ -31,7 +31,9 @@ namespace ejrcicioTelegramaASA2
                 tipoTelegrama = 'u';
             }
             //Obtengo el número de palabras que forma el telegrama
-            numPalabras = textoTelegrama.Length;
+            string[] palabras = textoTelegrama.Split(' ');
+            numPalabras = palabras.Length;
+
             //Si el telegrama es ordinario
             if (tipoTelegrama == 'o')
             {
@@ -41,7 +43,8 @@ namespace ejrcicioTelegramaASA2
                 }
                 else
                 {
-                    coste = 0.5 * numPalabras;
+                    coste = 2.5 + 0.5 * (numPalabras - 10);
+
                 }
             }
             else
@@ -64,6 +67,7 @@ namespace ejrcicioTelegramaASA2
                 }
             }
             txtPrecio.Text = coste.ToString() + " euros";
+
         }
     }
 }
