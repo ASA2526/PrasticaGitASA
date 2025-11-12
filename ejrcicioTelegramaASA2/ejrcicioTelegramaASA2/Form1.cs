@@ -69,5 +69,10 @@ namespace ejrcicioTelegramaASA2
             txtPrecio.Text = coste.ToString() + " euros";
 
         }
+
+        private void rbUrgente_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

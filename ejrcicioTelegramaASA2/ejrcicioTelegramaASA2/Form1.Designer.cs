@@ -74,13 +74,14 @@
             // rbUrgente
             // 
             this.rbUrgente.AutoSize = true;
-            this.rbUrgente.Location = new System.Drawing.Point(168, 239);
+            this.rbUrgente.Location = new System.Drawing.Point(197, 239);
             this.rbUrgente.Name = "rbUrgente";
             this.rbUrgente.Size = new System.Drawing.Size(63, 17);
             this.rbUrgente.TabIndex = 5;
             this.rbUrgente.TabStop = true;
             this.rbUrgente.Text = "Urgente";
             this.rbUrgente.UseVisualStyleBackColor = true;
+            this.rbUrgente.CheckedChanged += new System.EventHandler(this.rbUrgente_CheckedChanged);
             // 
             // Form1
             // 
